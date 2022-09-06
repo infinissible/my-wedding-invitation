@@ -1,4 +1,8 @@
-ul {
+body {
+  background: rgb(236, 232, 232, 0.5);
+}
+
+/* ul {
   padding-left: 0;
   padding-right: 20;
   text-shadow: 2px 2px 2px #aaa;
@@ -10,7 +14,7 @@ li {
   padding: 5px 15px 5px 15px;
   font-size: 20px;
   margin-block: 30px;
-}
+} */
 
 .bd-r-none {
   border-right: 0px;
@@ -29,6 +33,10 @@ li {
   justify-content: center;
 }
 
+.w-3 {
+  width: 30%;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -44,9 +52,9 @@ footer {
 
 .eng {
   font-family: 'Pinyon Script', cursive;
-  font-size: 40px;
-  text-shadow: 2px 2px 2px rgb(230, 224, 224);
-  color: rgb(201, 198, 195);
+  font-size: 45px;
+  text-shadow: 2px 2px 2px rgb(33, 32, 32);
+  color: rgb(255, 255, 255);
 }
 
 .and {
@@ -54,9 +62,63 @@ footer {
   text-decoration-line: underline;
 }
 
-.name {
+.kor {
   font-family: 'Nanum Myeongjo', serif;
   font-size: 30px;
-  color: rgba(59, 59, 58, 0.92);
-  /* text-shadow: 1px 1px 1px rgb(147, 143, 143); */
+  color: rgba(59, 59, 58, 1);
+}
+
+.m-b-10 {
+  margin-block: 10px;
+}
+
+.m-b-30 {
+  margin-block: 30px;
+}
+
+.mx-5 {
+  margin-inline: 5px;
+}
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.py-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.invite {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 15px;
+  color: rgb(194, 109, 35);
+  line-height: 1.8;
+}
+
+.border {
+  border: 1px solid rgb(189, 185, 185);
+  padding: 10px;
+  box-shadow: 1px 1px rgb(41, 41, 41);
+}
+
+.bgi {
+  background-position: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url('./assets/jpg/deco1.jpeg');
+  background-size: cover;
+}
+
+.location {
+  background: rgba(237, 237, 237, 0.924);
+}
+
+.gallery {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #aaa;
 }
