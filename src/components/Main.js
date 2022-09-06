@@ -1,6 +1,6 @@
 import React from 'react';
 import main from '../assets/jpg/main.jpeg';
-import video from '../assets/video/wedding.mp4';
+import video from '../assets/video/wedding-720.mp4';
 
 function Main() {
   return (
