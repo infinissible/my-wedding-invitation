@@ -1,6 +1,5 @@
 import React from 'react';
 import main from '../assets/jpg/main.jpeg';
-import video from '../assets/video/wedding-720.mp4';
 
 function Main() {
   return (
@@ -12,9 +11,15 @@ function Main() {
         2022. 10. 8. 토요일 오후 12:00 <br />
         전주 향교
       </h2>
-      <video width={500} controls>
-        <source src={video} type='video/mp4' />
-      </video>
+      <iframe
+        width='560'
+        height='315'
+        src='https://www.youtube.com/embed/WaTJIrU_Edo'
+        title='YouTube video player'
+        frameborder='0'
+        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+        allowfullscreen
+      ></iframe>
     </div>
   );
 }
