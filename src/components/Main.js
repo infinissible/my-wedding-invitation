@@ -26,7 +26,7 @@ function Main() {
         <iframe
           width='350'
           height='250'
-          src='https://www.youtube.com/embed/XFV7pirD7gw'
+          src='https://www.youtube.com/embed/fARU1eXXf9I'
           title='YouTube video player'
           frameBorder='0'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
