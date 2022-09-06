@@ -1,16 +1,7 @@
-* {
-  margin: 0;
-}
-
-body {
-  width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 ul {
   padding-left: 0;
   padding-right: 20;
+  text-shadow: 2px 2px 2px #aaa;
 }
 
 li {
@@ -49,4 +40,23 @@ footer {
 
   color: black;
   text-align: center;
+}
+
+.eng {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px rgb(230, 224, 224);
+  color: rgb(201, 198, 195);
+}
+
+.and {
+  font-size: 40px;
+  text-decoration-line: underline;
+}
+
+.name {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 30px;
+  color: rgba(59, 59, 58, 0.92);
+  /* text-shadow: 1px 1px 1px rgb(147, 143, 143); */
 }
