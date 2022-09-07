@@ -16,9 +16,8 @@ function Main() {
         <img width={330} alt='main' src={main} />
       </div>
       <div className='location'>
-        <p className='invite py-30'>
-          승진 길주의 결혼식에 당신을 초대 합니다. <br />
-          2022. 10. 8. 토요일 오후 12:00 <br />
+        <p className='invite py-20'>
+          2022. 10. 8. 토요일 낮 12:00 <br />
           전주 향교
         </p>
         <div className='flex inline'>
@@ -39,14 +38,16 @@ function Main() {
         </div>
         <div className='text-center'>
           <p className='p-30 invite line'>
-            청명한 가을하늘빛 풍성한 결실의 계절에 <br />두 사람이 하나 되는
+            청명한 가을하늘빛 풍성한 <br />
+            결실의 계절에 두 사람이 하나 되는
+            <br />
             서약을 맺고자 합니다.
             <br />
-            서로 아끼고 사랑하며, 그 사랑을 전하는 <br />
-            가정을 이루겠습니다. 한뜻으로 나아가는 <br />
-            기쁜날에 소중하고 귀한 분을 모시고자 합니다. 함께 하시어 축복해
-            주시면 큰 기쁨으로 <br />
-            간직하겠습니다.
+            서로 아끼고 사랑하며, <br />그 사랑을 전하는 <br />
+            가정을 이루겠습니다. <br />
+            한뜻으로 나아가는 기쁜날에 <br />
+            소중하고 귀한 분을 모시고자 합니다. <br />
+            함께 하시어 축복해 주시면 <br />큰 기쁨으로 간직하겠습니다.
           </p>
         </div>
       </div>
