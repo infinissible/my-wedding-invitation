@@ -11,6 +11,12 @@ function Main() {
           <p className='eng and m-b-10'>and</p>{' '}
           <p className='kor m-b-10'>이 길 주</p>
         </h2>
+        <div>
+          <p>
+            신랑측 혼주 <br />
+            어머니 유점순
+          </p>
+        </div>
       </div>
       <div className='border'>
         <img width={330} alt='main' src={main} />

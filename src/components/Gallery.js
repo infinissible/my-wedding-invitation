@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
-// import ImageViewer from 'react-simple-image-viewer';
 import Modal from './Modal';
+import { useSwipeable } from 'react-swipeable';
 
 function Gallery() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -47,8 +47,15 @@ function Gallery() {
     }
   }, []);
 
+  const handlers = useSwipeable({
+    onSwipedRight: () => nextImage(currentImage),
+    onSwipedLeft: () => previousImage(currentImage),
+    onSwipedDown: () => closeImageViewer(),
+    onSwipedUp: () => closeImageViewer(),
+  });
+
   return (
-    <div className='m-b-10 py-20'>
+    <div className='m-b-10 py-20' {...handlers}>
       <p className='gallery'>사 진 첩</p>
       {gallery.map((src, index) => (
         <div key={index} className='w-3 inline mx-5 space-center'>

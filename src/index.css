@@ -2,6 +2,10 @@ body {
   background: rgb(236, 232, 232, 0.5);
 }
 
+:root {
+  --darker: #111111;
+}
+
 /* ul {
   padding-left: 0;
   padding-right: 20;
@@ -124,7 +128,7 @@ footer {
 }
 
 .modalBackdrop {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 1);
   bottom: 0;
   left: 0;
   overflow: auto;
@@ -135,23 +139,24 @@ footer {
 }
 
 .modalContainer {
-  background: var(--darker);
   border-radius: 5px;
   /* max-width: 360px; */
   margin: 30px auto;
   padding: 5px;
   /* width: 100%; */
+  padding-top: 60px;
 }
 
 .modalContainer img {
-  max-width: 360px;
+  max-width: 350px;
 }
 
 .closeBtn {
   color: aliceblue;
-  opacity: 0.5;
-  margin-right: -300px;
-  margin-top: 25px;
+  opacity: 0.8;
+  position: absolute;
+  font-size: 30px;
+  right: 0;
 }
 
 .closeBtn:hover,
@@ -163,21 +168,23 @@ footer {
 
 .forward {
   color: aliceblue;
-  opacity: 0.5;
+  opacity: 0.8;
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 10px;
+  font-size: 30px;
 }
 
 .back {
   color: aliceblue;
-  opacity: 0.5;
+  opacity: 0.8;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 10px;
+  font-size: 30px;
 }
 
-span {
+.rounded {
   padding: 10px;
   border-radius: 25px;
 }
