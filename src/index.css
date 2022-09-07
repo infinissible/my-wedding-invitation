@@ -122,3 +122,62 @@ footer {
   font-size: 20px;
   text-shadow: 1px 1px 1px #aaa;
 }
+
+.modalBackdrop {
+  background: rgba(0, 0, 0, 0.9);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.modalContainer {
+  background: var(--darker);
+  border-radius: 5px;
+  /* max-width: 360px; */
+  margin: 30px auto;
+  padding: 5px;
+  /* width: 100%; */
+}
+
+.modalContainer img {
+  max-width: 360px;
+}
+
+.closeBtn {
+  color: aliceblue;
+  opacity: 0.5;
+  margin-right: -300px;
+  margin-top: 25px;
+}
+
+.closeBtn:hover,
+.forward:hover,
+.back:hover {
+  opacity: 1;
+  background-color: rgba(125, 116, 116, 0.4);
+}
+
+.forward {
+  color: aliceblue;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+}
+
+.back {
+  color: aliceblue;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+}
+
+span {
+  padding: 10px;
+  border-radius: 25px;
+}

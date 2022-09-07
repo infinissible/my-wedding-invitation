@@ -1,5 +1,6 @@
 import React, { useState, useCallback } from 'react';
-import ImageViewer from 'react-simple-image-viewer';
+// import ImageViewer from 'react-simple-image-viewer';
+import Modal from './Modal';
 
 function Gallery() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -30,6 +31,22 @@ function Gallery() {
     setIsViewerOpen(false);
   };
 
+  const nextImage = useCallback((currentImage) => {
+    if (currentImage !== 11) {
+      setCurrentImage(currentImage + 1);
+    } else {
+      setCurrentImage(0);
+    }
+  }, []);
+
+  const previousImage = useCallback((currentImage) => {
+    if (currentImage !== 0) {
+      setCurrentImage(currentImage - 1);
+    } else {
+      setCurrentImage(11);
+    }
+  }, []);
+
   return (
     <div className='m-b-10 py-20'>
       <p className='gallery'>사 진 첩</p>
@@ -42,17 +59,16 @@ function Gallery() {
             key={src}
             alt={src}
           />
-          {isViewerOpen && (
-            <ImageViewer
-              src={gallery}
-              currentIndex={currentImage}
-              disableScroll={false}
-              closeOnClickOutside={true}
-              onClose={closeImageViewer}
-            />
-          )}
         </div>
       ))}
+      {isViewerOpen && (
+        <Modal
+          currentPhoto={currentImage}
+          onClose={closeImageViewer}
+          toNext={() => nextImage(currentImage)}
+          toPrevious={() => previousImage(currentImage)}
+        />
+      )}
     </div>
   );
 }
