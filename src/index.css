@@ -1,5 +1,5 @@
 body {
-  background: rgb(236, 232, 232, 0.5);
+  background: rgba(216, 214, 212, 0.5);
 }
 
 :root {
@@ -42,7 +42,7 @@ li {
 }
 
 .w-100 {
-  width: 100%;
+  width: 365px;
 }
 
 footer {
@@ -84,6 +84,18 @@ footer {
   margin-inline: 5px;
 }
 
+.mx-20 {
+  margin-inline: 20px;
+}
+
+.my-15 {
+  margin-block: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
 .py-20 {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -94,6 +106,10 @@ footer {
   padding-bottom: 30px;
 }
 
+.p-30 {
+  padding: 30px;
+}
+
 .invite {
   font-family: 'Nanum Myeongjo', serif;
   font-size: 15px;
@@ -101,10 +117,17 @@ footer {
   line-height: 1.8;
 }
 
+.line {
+  line-height: 2.5;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .border {
   border: 1px solid rgb(189, 185, 185);
   padding: 10px;
-  box-shadow: 1px 1px rgb(41, 41, 41);
 }
 
 .bgi {
@@ -118,7 +141,7 @@ footer {
 }
 
 .location {
-  background: rgba(237, 237, 237, 0.924);
+  background: rgba(230, 229, 229, 0.7);
 }
 
 .gallery {
@@ -190,4 +213,13 @@ footer {
 .rounded {
   padding: 10px;
   border-radius: 25px;
+}
+
+.carousel .thumbs-wrapper {
+  margin: 0 !important;
+  overflow: hidden;
+}
+
+.sm {
+  font-size: 10px;
 }

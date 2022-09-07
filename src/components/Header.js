@@ -1,14 +1,14 @@
 import React from 'react';
-// import Nav from './Navigation';
 import Main from './Main';
 import Gallery from './Gallery';
+import Contact from './Contact';
 
 function Header() {
   return (
     <header>
-      {/* <Nav /> */}
       <Main />
       <Gallery />
+      <Contact />
     </header>
   );
 }

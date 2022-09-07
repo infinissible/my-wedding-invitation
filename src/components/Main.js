@@ -11,12 +11,6 @@ function Main() {
           <p className='eng and m-b-10'>and</p>{' '}
           <p className='kor m-b-10'>이 길 주</p>
         </h2>
-        <div>
-          <p>
-            신랑측 혼주 <br />
-            어머니 유점순
-          </p>
-        </div>
       </div>
       <div className='border'>
         <img width={330} alt='main' src={main} />
@@ -27,8 +21,38 @@ function Main() {
           2022. 10. 8. 토요일 오후 12:00 <br />
           전주 향교
         </p>
+        <div className='flex inline'>
+          <div className='mx-20'>
+            <p className='invite'>
+              승진의 <br />
+              <span className='sm'>어머니</span> 유점순
+            </p>
+          </div>
+          <div className='mx-20'>
+            <p className='invite'>
+              길주의
+              <br />
+              <span className='sm'>아버지</span> 이해영 <br />
+              <span className='sm'>어머니</span> 오정화
+            </p>
+          </div>
+        </div>
+        <div className='text-center'>
+          <p className='p-30 invite line'>
+            청명한 가을하늘빛 풍성한 결실의 계절에 <br />두 사람이 하나 되는
+            서약을 맺고자 합니다.
+            <br />
+            서로 아끼고 사랑하며, 그 사랑을 전하는 <br />
+            가정을 이루겠습니다. 한뜻으로 나아가는 <br />
+            기쁜날에 소중하고 귀한 분을 모시고자 합니다. 함께 하시어 축복해
+            주시면 큰 기쁨으로 <br />
+            간직하겠습니다.
+          </p>
+        </div>
       </div>
-      <div className='py-20'>
+
+      <div className='my-15 py-20'>
+        <p className='gallery'>영상 메세지</p>
         <iframe
           width='350'
           height='250'
