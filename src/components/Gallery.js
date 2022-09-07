@@ -48,10 +48,9 @@ function Gallery() {
   }, []);
 
   const handlers = useSwipeable({
-    onSwipedRight: () => nextImage(currentImage),
-    onSwipedLeft: () => previousImage(currentImage),
+    onSwipedRight: () => previousImage(currentImage),
+    onSwipedLeft: () => nextImage(currentImage),
     onSwipedDown: () => closeImageViewer(),
-    onSwipedUp: () => closeImageViewer(),
   });
 
   return (
@@ -74,6 +73,7 @@ function Gallery() {
           onClose={closeImageViewer}
           toNext={() => nextImage(currentImage)}
           toPrevious={() => previousImage(currentImage)}
+          photos={gallery}
         />
       )}
     </div>
