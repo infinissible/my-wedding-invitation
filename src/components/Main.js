@@ -55,6 +55,7 @@ function Main() {
       <div className='my-15 py-20'>
         <p className='gallery'>영상 메세지</p>
         <iframe
+          className='mt-40'
           width='350'
           height='250'
           src='https://www.youtube.com/embed/fARU1eXXf9I'

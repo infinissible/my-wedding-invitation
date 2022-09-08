@@ -51,31 +51,34 @@ function Gallery() {
     onSwipedRight: () => previousImage(currentImage),
     onSwipedLeft: () => nextImage(currentImage),
     onSwipedDown: () => closeImageViewer(),
+    onSwipedUp: () => closeImageViewer(),
   });
 
   return (
     <div className='m-b-10 py-20' {...handlers}>
       <p className='gallery'>사 진 첩</p>
-      {gallery.map((src, index) => (
-        <div key={index} className='w-3 inline mx-5 space-center'>
-          <img
-            width={100}
-            src={require(`../assets/jpg/photos/${index}.jpeg`)}
-            onClick={() => openImageViewer(index)}
-            key={src}
-            alt={src}
+      <div className='mt-40'>
+        {gallery.map((src, index) => (
+          <div key={index} className='w-3 inline mx-5 space-center'>
+            <img
+              width={100}
+              src={require(`../assets/jpg/photos/${index}.jpeg`)}
+              onClick={() => openImageViewer(index)}
+              key={src}
+              alt={src}
+            />
+          </div>
+        ))}
+        {isViewerOpen && (
+          <Modal
+            currentPhoto={currentImage}
+            onClose={closeImageViewer}
+            toNext={() => nextImage(currentImage)}
+            toPrevious={() => previousImage(currentImage)}
+            photos={gallery}
           />
-        </div>
-      ))}
-      {isViewerOpen && (
-        <Modal
-          currentPhoto={currentImage}
-          onClose={closeImageViewer}
-          toNext={() => nextImage(currentImage)}
-          toPrevious={() => previousImage(currentImage)}
-          photos={gallery}
-        />
-      )}
+        )}
+      </div>
     </div>
   );
 }
