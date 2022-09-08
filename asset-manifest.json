@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-wedding-invitation/static/css/main.62de5b38.css",
-    "main.js": "/my-wedding-invitation/static/js/main.62aa925b.js",
+    "main.css": "/my-wedding-invitation/static/css/main.736419ea.css",
+    "main.js": "/my-wedding-invitation/static/js/main.14dddd3b.js",
     "static/js/787.bffb998b.chunk.js": "/my-wedding-invitation/static/js/787.bffb998b.chunk.js",
     "static/media/7.jpeg": "/my-wedding-invitation/static/media/7.f699aa26251955a9d20d.jpeg",
     "static/media/8.jpeg": "/my-wedding-invitation/static/media/8.3b6ca456595c8736c995.jpeg",
@@ -17,14 +17,16 @@
     "static/media/9.jpeg": "/my-wedding-invitation/static/media/9.c8232b2cccb2740761c9.jpeg",
     "static/media/1.jpeg": "/my-wedding-invitation/static/media/1.73a4b085f027bd3512ec.jpeg",
     "static/media/10.jpeg": "/my-wedding-invitation/static/media/10.3bc023ad56f807aad035.jpeg",
+    "static/media/kakao-jin.jpeg": "/my-wedding-invitation/static/media/kakao-jin.a31e71c00882079d8de6.jpeg",
+    "static/media/kakao-Aimee.jpeg": "/my-wedding-invitation/static/media/kakao-Aimee.e366c64c6a343fedc0ac.jpeg",
     "static/media/kakao.png": "/my-wedding-invitation/static/media/kakao.44a397d76cb4ffd7c230.png",
     "index.html": "/my-wedding-invitation/index.html",
-    "main.62de5b38.css.map": "/my-wedding-invitation/static/css/main.62de5b38.css.map",
-    "main.62aa925b.js.map": "/my-wedding-invitation/static/js/main.62aa925b.js.map",
+    "main.736419ea.css.map": "/my-wedding-invitation/static/css/main.736419ea.css.map",
+    "main.14dddd3b.js.map": "/my-wedding-invitation/static/js/main.14dddd3b.js.map",
     "787.bffb998b.chunk.js.map": "/my-wedding-invitation/static/js/787.bffb998b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62de5b38.css",
-    "static/js/main.62aa925b.js"
+    "static/css/main.736419ea.css",
+    "static/js/main.14dddd3b.js"
   ]
 }
