@@ -31,25 +31,25 @@ function Gallery() {
     setIsViewerOpen(false);
   };
 
-  const nextImage = useCallback((currentImage) => {
-    if (currentImage !== 11) {
-      setCurrentImage(currentImage + 1);
-    } else {
-      setCurrentImage(0);
-    }
-  }, []);
+  // const nextImage = useCallback((currentImage) => {
+  //   if (currentImage !== 11) {
+  //     setCurrentImage(currentImage + 1);
+  //   } else {
+  //     setCurrentImage(0);
+  //   }
+  // }, []);
 
-  const previousImage = useCallback((currentImage) => {
-    if (currentImage !== 0) {
-      setCurrentImage(currentImage - 1);
-    } else {
-      setCurrentImage(11);
-    }
-  }, []);
+  // const previousImage = useCallback((currentImage) => {
+  //   if (currentImage !== 0) {
+  //     setCurrentImage(currentImage - 1);
+  //   } else {
+  //     setCurrentImage(11);
+  //   }
+  // }, []);
 
   const handlers = useSwipeable({
-    onSwipedRight: () => previousImage(currentImage),
-    onSwipedLeft: () => nextImage(currentImage),
+    // onSwipedRight: () => previousImage(currentImage),
+    // onSwipedLeft: () => nextImage(currentImage),
     onSwipedDown: () => closeImageViewer(),
     onSwipedUp: () => closeImageViewer(),
   });
@@ -73,8 +73,8 @@ function Gallery() {
           <Modal
             currentPhoto={currentImage}
             onClose={closeImageViewer}
-            toNext={() => nextImage(currentImage)}
-            toPrevious={() => previousImage(currentImage)}
+            // toNext={() => nextImage(currentImage)}
+            // toPrevious={() => previousImage(currentImage)}
             photos={gallery}
           />
         )}

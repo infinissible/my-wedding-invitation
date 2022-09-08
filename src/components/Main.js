@@ -20,23 +20,19 @@ function Main() {
           2022. 10. 8. 토요일 낮 12:00 <br />
           전주 향교
         </p>
-        <div className='flex inline'>
+        <div className='flex inline ml-50'>
           <div className='mx-20'>
             <p className='invite'>
-              승진의 <br />
-              <span className='sm'>어머니</span> 유점순
+              유 점 순 <span className='sm'> 의 아들</span> 승 진
             </p>
           </div>
           <div className='mx-20'>
             <p className='invite'>
-              길주의
-              <br />
-              <span className='sm'>아버지</span> 이해영 <br />
-              <span className='sm'>어머니</span> 오정화
+              이 해 영 ・ 오 정 화 <span className='sm'> 의 딸</span> 길 주
             </p>
           </div>
         </div>
-        <div className='text-center'>
+        <div className='bgi2 text-center'>
           <p className='p-30 invite line'>
             청명한 가을하늘빛 풍성한 <br />
             결실의 계절에 두 사람이 하나 되는

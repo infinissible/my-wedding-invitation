@@ -39,7 +39,6 @@ function Contact() {
   return (
     <div className='m-b-10 py-20'>
       <p className='gallery'>연 락 처</p>
-
       {info.map((src, index) => (
         <div key={`contact ${index}`} className='mt-40 flex inline relative'>
           <p className='contact'>{src.name}</p>
