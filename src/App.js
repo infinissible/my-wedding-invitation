@@ -1,5 +1,4 @@
 import './App.css';
-import Footer from './components/Footer';
 import Main from './components/Main';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
@@ -13,7 +12,6 @@ function App() {
       <Contact />
       <Map />
     </div>,
-    // <Footer />,
   ];
 }
 
