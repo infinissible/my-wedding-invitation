@@ -20,18 +20,7 @@ function Main() {
           2022. 10. 8. 토요일 낮 12:00 <br />
           전주 향교
         </p>
-        <div className='flex inline ml-50'>
-          <div className='mx-20'>
-            <p className='invite'>
-              유 점 순 <span className='sm'> 의 아들</span> 승 진
-            </p>
-          </div>
-          <div className='mx-20'>
-            <p className='invite'>
-              이 해 영 ・ 오 정 화 <span className='sm'> 의 딸</span> 길 주
-            </p>
-          </div>
-        </div>
+
         <div className='bgi2 text-center'>
           <p className='p-30 invite line'>
             청명한 가을하늘빛 풍성한 <br />
@@ -45,6 +34,18 @@ function Main() {
             소중하고 귀한 분을 모시고자 합니다. <br />
             함께 하시어 축복해 주시면 <br />큰 기쁨으로 간직하겠습니다.
           </p>
+          <div className='flex inline ml-50 justify-end pr-60'>
+            <div className='mx-20'>
+              <p className='invite my-5'>
+                유 점 순 <span className='sm'> 의 아들</span> 승 진
+              </p>
+            </div>
+            <div className='mx-20'>
+              <p className='invite my-5'>
+                이 해 영 ・ 오 정 화 <span className='sm'> 의 딸</span> 길 주
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 

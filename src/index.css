@@ -81,6 +81,10 @@ footer {
   margin-inline: 20px;
 }
 
+.my-5 {
+  margin-block: 5px;
+}
+
 .my-15 {
   margin-block: 20px;
 }
@@ -101,6 +105,10 @@ footer {
 .py-30 {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.pr-60 {
+  padding-right: 60px;
 }
 
 .p-30 {
@@ -269,7 +277,10 @@ footer {
   position: relative;
 }
 
-#map {
-  width: 100%;
-  height: 400px;
+.justify-end {
+  justify-content: end;
 }
+/* #map {
+  width: 100%;
+  height: 350px;
+} */

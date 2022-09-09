@@ -1,11 +1,17 @@
 import './App.css';
-// import Footer from './components/Footer';
-import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './components/Main';
+import Gallery from './components/Gallery';
+import Contact from './components/Contact';
+import Map from './components/Map';
 
 function App() {
   return [
     <div className='App'>
-      <Header />
+      <Main />
+      <Gallery />
+      <Contact />
+      <Map />
     </div>,
     // <Footer />,
   ];
