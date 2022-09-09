@@ -16,7 +16,7 @@ function Main() {
         <img width={330} alt='main' src={main} />
       </div>
       <div className='location'>
-        <p className='invite py-20'>
+        <p className='py-20 text'>
           2022. 10. 8. 토요일 낮 12:00 <br />
           전주 향교
         </p>
