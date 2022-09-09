@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import kakao from '../assets/svg/kakao.png';
 // import qrAimee from '../assets/jpg/kakao-Aimee.jpeg';
 // import qrJin from '../assets/jpg/kakao-jin.jpeg';
-import { useSwipeable } from 'react-swipeable';
 
 function Contact() {
   const [showBox, setShowBox] = useState(false);
@@ -34,19 +33,8 @@ function Contact() {
     setShowBox(false);
   }
 
-  const handlers = useSwipeable({
-    onTap: (e) => {
-      if (!showBox) {
-        setShowBox(true);
-        setWhoseBank(e.event.target.id);
-      } else {
-        setShowBox(false);
-      }
-    },
-  });
-
   return (
-    <div className='m-b-10 py-20'>
+    <div className='m-b-10 py-20 mt-60'>
       <p className='gallery'>연 락 처</p>
       {info.map((src, index) => (
         <div key={`contact ${index}`} className='mt-40 flex inline relative'>
@@ -106,9 +94,9 @@ function Contact() {
             너그러운 마음으로 양해 부탁드립니다.
           </p>
         </div>
-        <div className='mt-40 flex space-center' {...handlers}>
+        <div className='mt-40 flex space-center'>
           {showBox && whoseBank === '1' ? (
-            <div id='1' className='btn2' onClick={clickClose}>
+            <div id='1' className='btn' onClick={clickClose}>
               농협 (예금주: 이승진) <br />
               601099-56-122291
             </div>
@@ -120,7 +108,7 @@ function Contact() {
         </div>
         <div className='mt-20 flex space-center'>
           {showBox && whoseBank === '2' ? (
-            <div id='2' className='btn2' onClick={clickClose}>
+            <div id='2' className='btn' onClick={clickClose}>
               하나은행 (예금주: 이길주) <br />
               702-910563-35507
             </div>

@@ -55,7 +55,7 @@ function Gallery() {
   });
 
   return (
-    <div className='m-b-10 py-20' {...handlers}>
+    <div className='m-b-10 py-20 mt-80' {...handlers}>
       <p className='gallery'>사 진 첩</p>
       <div className='mt-40'>
         {gallery.map((src, index) => (

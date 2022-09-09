@@ -49,7 +49,7 @@ function Main() {
         </div>
       </div>
 
-      <div className='my-15 py-20'>
+      <div className='my-15 py-20 mt-80'>
         <p className='gallery'>영상 메세지</p>
         <iframe
           className='mt-40'

@@ -25,6 +25,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -53,8 +54,61 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <div id="map" style="width: 400px; height: 250px"></div>
-    <div><h1>버스</h1></div>
+    <div style="display: flex; justify-content: center; flex-wrap: wrap">
+      <div id="map" style="width: 360px; height: 250px"></div>
+      <a style="text-decoration: none" href="https://naver.me/GnGR90y7"
+        ><div
+          style="
+            background: rgb(85, 82, 82);
+            width: 350px;
+            padding: 3px;
+            font-size: 17px;
+            font-weight: 900;
+            color: #efeded;
+            margin: 10px;
+            text-align: center;
+            padding: 10px;
+            font-family: 'Nanum Myeongjo', serif;
+          "
+        >
+          지도 바로가기
+        </div></a
+      >
+    </div>
+    <div
+      style="
+        font-family: 'Nanum Myeongjo', serif;
+        font-size: 13px;
+        color: rgba(59, 59, 58, 1);
+        line-height: 1.8;
+        margin-top: 20px;
+      "
+    >
+      <div style="margin-top: 10px; padding: 15px; padding-bottom: 0">
+        <h3 style="margin-block: 0">자 가 용</h3>
+        <p style="margin-top: 0">
+          국립무형유산원[무료주차장] 전북전주시 완산구 서학로 95 (동서학동
+          896-1) * 주차 후 오목교를 건너 전주향교로 오시면 됩니다. (도보 5분)
+        </p>
+      </div>
+      <div style="padding: 15px; padding-top: 0; padding-bottom: 0">
+        <h3 style="margin-block: 0">버 스</h3>
+        <p style="margin-top: 0">
+          전주 고속버스터미널 101, 752, 1000 전주역 79, 119, 535, 545, 1000
+          전동성당, 한옥마을 하차 후 도보 10분 국립무형유산원 하차 후 도보 5분
+        </p>
+      </div>
+      <div style="padding: 15px; padding-top: 0">
+        <h3 style="margin-block: 0">전주향교</h3>
+        <p style="margin-top: 0">
+          전북 전주시 완산구 향교길 139 (교동 26-3) * 향교길로 들어오시면 혼잡이
+          예상되오니 차량진입은 삼가주세요.<br />
+          <a style="text-decoration: none" href="tel:0632884548"
+            >063)288-4548</a
+          >
+        </p>
+      </div>
+    </div>
 
     <script>
       var mapOptions = {
